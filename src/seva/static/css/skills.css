@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 body {
-  font: normal 1em/1.5em "Droid Sans", sans-serif;
+  font: normal 1em/1.5em "Open Sans", sans-serif;
   background: #f4f4f4;
 }
 
@@ -74,6 +76,19 @@ article h2 {
 
 article.avg li {
   color: #ccc;
+}
+
+article.avg li i {
+  font-style: normal;
+  font-size: 2em;
+}
+
+article.avg li i.fill {
+  color: #a40000;
+}
+
+article.avg li .value {
+
 }
 
 article.user {
